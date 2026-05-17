@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesignHub | Discover the world's top designers</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background glowing orbs -->
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
+    <header id="navbar">
+        <nav class="container">
+            <div class="nav-left">
+                <a href="#" class="logo">DesignHub</a>
+                <ul class="nav-links">
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Hire a Designer</a></li>
+                    <li><a href="#">Find Jobs</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search...">
+                </div>
+                <a href="#" class="btn-login">Log in</a>
+                <a href="#" class="btn-primary">Sign up</a>
+                <button class="hamburger"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Hire a Designer</a></li>
+                <li><a href="#">Find Jobs</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#" class="btn-login">Log in</a></li>
+                <li><a href="#" class="btn-primary">Sign up</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero reveal">
+            <div class="hero-badge">Over 3 million ready-to-work creatives!</div>
+            <h1>Discover the world's top designers</h1>
+            <p>Explore work from the most talented and accomplished designers ready to take on your next project</p>
+            <div class="hero-search glass-effect">
+                <input type="text" placeholder="What are you looking for?">
+                <button class="btn-primary"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+            </div>
+            <div class="trending">
+                <span>Trending searches:</span>
+                <div class="trending-tags">
+                    <a href="#" class="tag">landing page</a>
+                    <a href="#" class="tag">e-commerce</a>
+                    <a href="#" class="tag">mobile app</a>
+                    <a href="#" class="tag">logo design</a>
+                    <a href="#" class="tag">dashboard</a>
+                    <a href="#" class="tag">icons</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories sticky-cats">
+            <div class="container">
+                <div class="cat-left">
+                    <button class="dropdown-btn">Popular <i class="fa-solid fa-chevron-down"></i></button>
+                    <button class="dropdown-btn">Discover <i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+                <ul class="cat-list">
+                    <li><a href="#" class="active">All</a></li>
+                    <li><a href="#">Animation</a></li>
+                    <li><a href="#">Branding</a></li>
+                    <li><a href="#">Illustration</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">Print</a></li>
+                    <li><a href="#">Product Design</a></li>
+                    <li><a href="#">Typography</a></li>
+                    <li><a href="#">Web Design</a></li>
+                </ul>
+                <div class="cat-right">
+                    <button class="filter-btn"><i class="fa-solid fa-sliders"></i> Filters</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="shots container">
+            <div class="shots-grid">
+                <!-- Card 1 -->
+                <div class="shot-card reveal">
+                    <div class="shot-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Shot Image">
+                        <div class="shot-overlay glass-effect">
+                            <h3 class="shot-title">Fitness App UI</h3>
+                            <div class="shot-actions">
+                                <button class="action-btn"><i class="fa-regular fa-folder"></i></button>
+                                <button class="action-btn"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shot-info">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?u=1" alt="User Avatar" class="avatar">
+                            <span class="username">Upnow Studio</span>
+                            <span class="badge pro">PRO</span>
+                        </div>
+                        <div class="stats">
+                            <span><i class="fa-solid fa-heart"></i> 450</span>
+                            <span><i class="fa-solid fa-eye"></i> 12k</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="shot-card reveal">
+                    <div class="shot-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1618761714954-0b8cd0026356?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Shot Image">
+                        <div class="shot-overlay glass-effect">
+                            <h3 class="shot-title">Hero 3D Animation</h3>
+                            <div class="shot-actions">
+                                <button class="action-btn"><i class="fa-regular fa-folder"></i></button>
+                                <button class="action-btn"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shot-info">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?u=2" alt="User Avatar" class="avatar">
+                            <span class="username">FANCY</span>
+                            <span class="badge team">TEAM</span>
+                        </div>
+                        <div class="stats">
+                            <span><i class="fa-solid fa-heart"></i> 890</span>
+                            <span><i class="fa-solid fa-eye"></i> 24k</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="shot-card reveal">
+                    <div class="shot-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Shot Image">
+                        <div class="shot-overlay glass-effect">
+                            <h3 class="shot-title">Crypto Dashboard</h3>
+                            <div class="shot-actions">
+                                <button class="action-btn"><i class="fa-regular fa-folder"></i></button>
+                                <button class="action-btn"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shot-info">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?u=3" alt="User Avatar" class="avatar">
+                            <span class="username">Extej UI UX</span>
+                            <span class="badge pro">PRO</span>
+                        </div>
+                        <div class="stats">
+                            <span><i class="fa-solid fa-heart"></i> 1.2k</span>
+                            <span><i class="fa-solid fa-eye"></i> 34k</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="shot-card reveal">
+                    <div class="shot-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Shot Image">
+                        <div class="shot-overlay glass-effect">
+                            <h3 class="shot-title">Plexo Branding</h3>
+                            <div class="shot-actions">
+                                <button class="action-btn"><i class="fa-regular fa-folder"></i></button>
+                                <button class="action-btn"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shot-info">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?u=4" alt="User Avatar" class="avatar">
+                            <span class="username">Emote</span>
+                            <span class="badge team">TEAM</span>
+                        </div>
+                        <div class="stats">
+                            <span><i class="fa-solid fa-heart"></i> 560</span>
+                            <span><i class="fa-solid fa-eye"></i> 18k</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="shot-card reveal">
+                    <div class="shot-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Shot Image">
+                        <div class="shot-overlay glass-effect">
+                            <h3 class="shot-title">Altecho Webdesign</h3>
+                            <div class="shot-actions">
+                                <button class="action-btn"><i class="fa-regular fa-folder"></i></button>
+                                <button class="action-btn"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shot-info">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?u=5" alt="User Avatar" class="avatar">
+                            <span class="username">Victa Ville</span>
+                            <span class="badge pro">PRO</span>
+                        </div>
+                        <div class="stats">
+                            <span><i class="fa-solid fa-heart"></i> 920</span>
+                            <span><i class="fa-solid fa-eye"></i> 21k</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="shot-card reveal">
+                    <div class="shot-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Shot Image">
+                        <div class="shot-overlay glass-effect">
+                            <h3 class="shot-title">Modern E-commerce</h3>
+                            <div class="shot-actions">
+                                <button class="action-btn"><i class="fa-regular fa-folder"></i></button>
+                                <button class="action-btn"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shot-info">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?u=6" alt="User Avatar" class="avatar">
+                            <span class="username">Bonsai</span>
+                            <span class="badge pro">PRO</span>
+                        </div>
+                        <div class="stats">
+                            <span><i class="fa-solid fa-heart"></i> 730</span>
+                            <span><i class="fa-solid fa-eye"></i> 15k</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 7 -->
+                <div class="shot-card reveal">
+                    <div class="shot-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Shot Image">
+                        <div class="shot-overlay glass-effect">
+                            <h3 class="shot-title">Doverange.</h3>
+                            <div class="shot-actions">
+                                <button class="action-btn"><i class="fa-regular fa-folder"></i></button>
+                                <button class="action-btn"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shot-info">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?u=7" alt="User Avatar" class="avatar">
+                            <span class="username">Type08</span>
+                            <span class="badge pro">PRO</span>
+                        </div>
+                        <div class="stats">
+                            <span><i class="fa-solid fa-heart"></i> 1.5k</span>
+                            <span><i class="fa-solid fa-eye"></i> 40k</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 8 -->
+                <div class="shot-card reveal">
+                    <div class="shot-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Shot Image">
+                        <div class="shot-overlay glass-effect">
+                            <h3 class="shot-title">Financial Mobile App</h3>
+                            <div class="shot-actions">
+                                <button class="action-btn"><i class="fa-regular fa-folder"></i></button>
+                                <button class="action-btn"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shot-info">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?u=8" alt="User Avatar" class="avatar">
+                            <span class="username">Ronus IT</span>
+                            <span class="badge pro">PRO</span>
+                        </div>
+                        <div class="stats">
+                            <span><i class="fa-solid fa-heart"></i> 340</span>
+                            <span><i class="fa-solid fa-eye"></i> 8k</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 9 -->
+                <div class="shot-card reveal">
+                    <div class="shot-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Shot Image">
+                        <div class="shot-overlay glass-effect">
+                            <h3 class="shot-title">Animated Landing Page</h3>
+                            <div class="shot-actions">
+                                <button class="action-btn"><i class="fa-regular fa-folder"></i></button>
+                                <button class="action-btn"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shot-info">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?u=9" alt="User Avatar" class="avatar">
+                            <span class="username">Bato</span>
+                            <span class="badge team">TEAM</span>
+                        </div>
+                        <div class="stats">
+                            <span><i class="fa-solid fa-heart"></i> 670</span>
+                            <span><i class="fa-solid fa-eye"></i> 19k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="signup-cta reveal">
+                <button class="btn-primary large">Sign up to continue</button>
+                <p>Or log in if you already have an account</p>
+            </div>
+        </section>
+
+        <section class="marquee-section reveal">
+            <h3 class="marquee-title">Trusted by top teams</h3>
+            <div class="marquee-container">
+                <div class="marquee-content">
+                    <div class="marquee-item"><i class="fa-brands fa-apple"></i> Apple</div>
+                    <div class="marquee-item"><i class="fa-brands fa-google"></i> Google</div>
+                    <div class="marquee-item"><i class="fa-brands fa-microsoft"></i> Microsoft</div>
+                    <div class="marquee-item"><i class="fa-brands fa-aws"></i> Amazon</div>
+                    <div class="marquee-item"><i class="fa-brands fa-meta"></i> Meta</div>
+                    <div class="marquee-item"><i class="fa-brands fa-stripe"></i> Stripe</div>
+                    <div class="marquee-item"><i class="fa-brands fa-spotify"></i> Spotify</div>
+                </div>
+                <div class="marquee-content" aria-hidden="true">
+                    <div class="marquee-item"><i class="fa-brands fa-apple"></i> Apple</div>
+                    <div class="marquee-item"><i class="fa-brands fa-google"></i> Google</div>
+                    <div class="marquee-item"><i class="fa-brands fa-microsoft"></i> Microsoft</div>
+                    <div class="marquee-item"><i class="fa-brands fa-aws"></i> Amazon</div>
+                    <div class="marquee-item"><i class="fa-brands fa-meta"></i> Meta</div>
+                    <div class="marquee-item"><i class="fa-brands fa-stripe"></i> Stripe</div>
+                    <div class="marquee-item"><i class="fa-brands fa-spotify"></i> Spotify</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer reveal">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo-area">
+                    <a href="#" class="logo">DesignHub</a>
+                    <p>DesignHub is the world's leading community for creatives to share, grow, and get hired.</p>
+                    <div class="socials">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-grid">
+                    <div class="link-column">
+                        <h4>For designers</h4>
+                        <ul>
+                            <li><a href="#">Go Pro!</a></li>
+                            <li><a href="#">Explore design work</a></li>
+                            <li><a href="#">Design blog</a></li>
+                            <li><a href="#">Overtime podcast</a></li>
+                            <li><a href="#">Playoffs</a></li>
+                            <li><a href="#">Code of conduct</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-column">
+                        <h4>Hire designers</h4>
+                        <ul>
+                            <li><a href="#">Post a job opening</a></li>
+                            <li><a href="#">Post a freelance project</a></li>
+                            <li><a href="#">Search for designers</a></li>
+                            <li><a href="#">Brands</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Media kit</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-column">
+                        <h4>Directories</h4>
+                        <ul>
+                            <li><a href="#">Design jobs</a></li>
+                            <li><a href="#">Designers for hire</a></li>
+                            <li><a href="#">Freelance designers for hire</a></li>
+                            <li><a href="#">Tags</a></li>
+                            <li><a href="#">Places</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DesignHub. All rights reserved.</p>
+                <ul class="bottom-links">
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Cookies</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
